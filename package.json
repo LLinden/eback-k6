@@ -1,0 +1,30 @@
+{
+  "name": "k6",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000e\u0000b\u0000a\u0000c\u0000k\u0000-\u0000k\u00006\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "webpack",
+    "test": "k6 run dist/customers.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LLinden/eback-k6.git"
+  },
+  "author": "lucaslinden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LLinden/eback-k6/issues"
+  },
+  "homepage": "https://github.com/LLinden/eback-k6#readme",
+  "dependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "@types/k6": "^0.46.0",
+    "babel-loader": "^9.1.3",
+    "core-js": "^3.32.0",
+    "dotenv": "^16.3.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
