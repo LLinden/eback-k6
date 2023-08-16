@@ -34,15 +34,15 @@ let customers = new Customers()
   })
 
   group('list customer by id', () => {
-    
+    customers.listById(login.getToken(), customers.getCustomerId())
   })
 
   group('update customer by id', () => {
-    
+    customers.update(login.getToken(), customers.getCustomerId(), data.address.id, data.email, data.firstName, data.lastName, data.phone)
   })
 
   group('delete customer by id', () => {
-    
+    customers.listById(login.getToken(), customers.getCustomerId())
   })
 
 }
